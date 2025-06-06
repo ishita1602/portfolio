@@ -1,0 +1,132 @@
+*{
+    background-image: url(holographic-gradient-illustration.jpg);
+    background-size: cover;
+   z-index: -1;
+   position: relative;
+   
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#navbar{
+    height: 20px;
+    position:static;
+    z-index: 1;
+    justify-content: space-evenly;
+    display: flex;
+}
+a{
+    text-align: center;
+    font-size: 15px;
+    transition: font-size 0.3s ease;
+    z-index: 1;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    
+    flex-wrap:nowrap;
+    text-decoration: none;
+    z-index: 1;
+}
+a:hover{
+    font-size: large;
+    color: crimson;
+}
+div{
+    position: relative;
+    top:100;
+    left:10px;
+    z-index: 1;
+    text-align: center;
+    justify-content: space-evenly;
+    
+
+}
+.profile{
+    width: 600px;
+    height: fit-content;
+    font-size: 20px;
+    text-align: start;
+    
+}
+h2{
+    text-align: left;
+    color: crimson;
+}
+.picture{
+    margin:0;
+    padding:0;
+    height: 200px;
+    width: 200px;
+   object-fit:cover;
+   border-radius: 50%;
+   border: 3px solid crimson ;
+   position:relative;
+   z-index: 2;
+   top:px;
+   right:40px;
+   left:300px;
+   bottom:100px;
+   
+}
+.skills{
+    margin:0;
+    padding:0;
+    height:200px;
+    width:1000;
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-items: center;
+    justify-content:space-evenly;
+
+      
+}
+
+#python{
+    height:200px;
+    width: 200px;
+    transition: transform 0.3s ease; 
+
+}
+#python:hover{
+   transform: scale(1.2);
+}
+#html{
+    height:200px;
+    width: 200px;
+     transition: transform 0.3s ease; 
+}
+#html:hover{
+    transform: scale(1.2);
+}
+#css{
+    height:200px;
+    width: 200px;
+     transition: transform 0.3s ease; 
+}
+#css:hover{
+    transform: scale(1.2);
+}
+#aiml{
+    height:200px;
+    width: 200px;
+     transition: transform 0.3s ease; 
+}
+#aiml:hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: #222;
+    z-index:+4;
+  color: rgb(11, 2, 2);
+  text-align: center;
+  padding: 15px 0;
+}
+input{
+    height: 40px;
+    width: 400px;
+}
