@@ -1,8 +1,8 @@
 *{
     background-image: url(holographic-gradient-illustration.jpg);
     background-size: cover;
-   z-index: -1;
-   position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
    
 }
 p{
@@ -13,10 +13,11 @@ h1{
 }
 #navbar{
     height: 20px;
-    position:static;
+    position:relative;
     z-index: 1;
     justify-content: space-evenly;
     display: flex;
+    
 }
 a{
     text-align: center;
