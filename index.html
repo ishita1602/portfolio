@@ -3,53 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ishita</title>
+    <title>Ishita | Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Orbitron:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>PORTFOLIO</h1>
-     <div>
-     <div id="navbar">
-        <a id="logo" >Profile</a>
-        
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-        <a href="#">Contact </a>
-     </div>
-     <h2>
-        Ishita
-     </h2>
-     
-     <div class="profile">
-        I’m a student exploring the fields of data science and software development. I’m learning to work with html,css,Python, SQL, and machine learning, and enjoy building small projects that combine data analysis with coding.
-
-     </div>
-     
-         <img src="pp.jpeg" alt="Profile picture" class="picture">
-     </div>
-     <h2>
-        SKILLS
-     </h2>
-     <div class="skills">
-     <img src="html.jpg" alt="html" id="html">
-     <img src="css.jpg" alt="css" id="css">
-      <img src="python.png" alt="python" id="python">
-       <img src="aiml.jpg" alt="aiml" id="aiml">
-       </div>
-        <footer class="footer">
-         <div id="text">
-    <h1> Contact </h1>
-    <br>
-    <form action="/action.php">
-    <input type="text" id="name" placeholder="Name">
-    <br>
-    <br>
-    <input type="email" placeholder="email">
-    <br>
-    <br>
-    <input type="text" placeholder="message">
-    </div>
-    </form>
-  </footer>
+    <header>
+        <nav id="navbar">
+            <a id="logo">Ishita</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero reveal">
+            <div class="profile-card glass">
+                <img src="pp.jpeg" alt="Profile picture" class="picture animated-glow">
+                <h1>Hi, I'm <span class="highlight">Ishita</span></h1>
+                <p class="subtitle">Student | Data Science & Software Development Enthusiast</p>
+                <p class="description">I'm exploring data science and software development, learning HTML, CSS, Python, SQL, and machine learning. I enjoy building projects that combine data analysis with coding.</p>
+            </div>
+        </section>
+        <section class="skills-section reveal" id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-card glass"><img src="html.jpg" alt="HTML" class="skill-icon"><span>HTML</span></div>
+                <div class="skill-card glass"><img src="css.jpg" alt="CSS" class="skill-icon"><span>CSS</span></div>
+                <div class="skill-card glass"><img src="python.png" alt="Python" class="skill-icon"><span>Python</span></div>
+                <div class="skill-card glass"><img src="aiml.jpg" alt="AI/ML" class="skill-icon"><span>AI/ML</span></div>
+            </div>
+        </section>
+        <section class="about-section reveal" id="about">
+            <h2>About Me</h2>
+            <p class="about-text">Passionate about technology, I love to learn, create, and innovate. My journey is driven by curiosity and a desire to make a difference through code and data.</p>
+        </section>
+        <section class="contact-section reveal" id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form glass" action="#">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer glass">
+        <p>&copy; 2024 Ishita. All rights reserved.</p>
+    </footer>
 </body>
 </html>
